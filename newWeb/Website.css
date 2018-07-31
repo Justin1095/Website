@@ -1,0 +1,104 @@
+body {  
+	background-image: url("blueSkies.gif");
+	
+	/*-
+	webkit-background-size: 100%, 100%;
+	-moz-background-size: 100%, 100%;
+	-o-background-size: 100%, 100%;
+	*/
+	 background-size: cover;
+	 @media (max-width : 700px) {
+    
+    	background-size: auto;
+    	
+    	
+	}
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+h1{
+	font-size: 250%;
+	 margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    padding: 2px;
+   text-shadow: -.3px 0 black, 0 .3px black, .3px 0 black, 0 -.3px black;
+
+	/*background-color: white;
+    	border-radius: 50%;   
+    	height: 70px;
+    	opacity: 0;
+    
+	width: 310px;
+	padding: 13px;
+	padding-bottom: 0px;
+  	
+    	display: inline-block;
+    	transition: background-color .3s ease, color .3s ease;
+    	color: #222;
+    	*/
+}
+
+
+.trans2{
+	margin: 20px;
+	width: 600px;
+	/*
+	border-radius: 50%;  
+	*/ 
+    background-color: hsla(184, 0%, 64%, 0.5);;
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+
+h2{
+	color: #000000 ;
+	   -webkit-text-stroke: .3px black;
+	font-weight: bold;
+
+}
+
+h3{
+	color: #000000;
+	  -webkit-text-stroke: 0.3px black;
+	font-size: 125%;
+    font-weight: bold;
+
+}
+
+.contacts a{
+ 	background-color: hsl(182, 80%, 50%);
+    	border-radius: 35px;
+    	margin: 6px 6px;
+    	height: 36px;
+	width: 36px;
+    	padding: 16px;
+    	display: inline-block;
+    	transition: background-color .3s ease, color .3s ease;
+    	color: #222;
+}
+
+.ResumeIcon a{
+	background-color: hsl(182, 80%, 50%);
+
+	//background-color: #D83450;
+    	border-radius: 35px;
+    	margin: 6px 6px;
+    	height: 36px;
+	width: 36px;
+    	padding: 16px;
+    	display: inline-block;
+    	transition: background-color .3s ease, color .3s ease;
+    	color: #222;
+}
+
+.Resume a{
+	color: #c71585;
+	font-size: 115%;
+}
